@@ -1,0 +1,12 @@
+{
+  "name": "proxy_comic_rater",
+  "version": "1.0.0",
+  "description": "Proxy para comic_rater ",
+  "main": "server.js",
+  "repository": "http://github.com/nataliaBedoya/proxy_comic_rater.git",
+  "author": "Natalia Bedoya",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
