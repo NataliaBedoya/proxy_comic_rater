@@ -6,7 +6,15 @@
   "repository": "http://github.com/nataliaBedoya/proxy_comic_rater.git",
   "author": "Natalia Bedoya",
   "license": "MIT",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
   }
 }
